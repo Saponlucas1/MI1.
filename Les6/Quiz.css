@@ -1,0 +1,19 @@
+body
+{
+background-color: orange;
+font-family: sans-serif
+}
+p.antwoord
+{
+  background: lightgoldenrodyellow;
+  color:lightgoldenrodyellow;
+}
+p.antwoord:hover
+{
+  color:darkblue;
+}
+h2
+{
+    background-color: darkblue;
+    color: orange
+}
