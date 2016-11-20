@@ -1,0 +1,42 @@
+body
+{
+background-color: #87CEEB;
+
+
+border-left-width: 35px;
+border-right-width: 35px;
+border-bottom-color: #0047AB;
+border-top-color: #0047AB;
+border-left-color: #42AAFF;
+border-right-color: #42AAFF;
+border-style: groove;
+
+margin-bottom: auto;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: monospace;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 20;
+}
+
+p {
+    font-size: 30px;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 20;
+}
+   
