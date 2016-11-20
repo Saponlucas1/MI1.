@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 20;
+}
+
+dl {
+    width: 100%;
+    overflow: hidden;
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color: black;
+    border-bottom-color: black;
+}
+
+dt {
+    float: left;
+    width: 50%;
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0
+}
+
+dd {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
