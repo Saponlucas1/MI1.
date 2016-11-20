@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="beschrijving van de webpagina">
+    <meta name="keywords" content="trefwoorden, gescheiden, door, komma's">
+    <meta name="viewport" content="width=device-width, height=device-height" />
+    <title>Formulier</title>
+</head>
+
+<body>
+    <h1>Persoonlijke voorkeuren</h1>
+    <fieldset>
+        <legend>Mijn voorkeuren</legend>
+        <br>
+        <label>Lievelingskleur</label>
+        <input type="text" id="Kleur" name="Kleur" length="30" />
+        <br />
+        <label>Favoriete seizoen</label>
+        <input type="radio" id="Lente">
+        <label for="Lente">Lente</label>
+        <input type="radio" id="zomer">
+        <label for="zomer">Zomer</label>
+        <input type="radio" id="Herfst">
+        <label for="Herfst">Herfst</label>
+        <input type="radio" id="Winter">
+        <label for="Winter">Winter</label>
+        <br/>
+        <label>Favoriete maand van het jaar</label>
+        <select id="Maand">
+            <option disabled>--Kies je favoriete maand--</option>
+            <option>Januari</option>
+            <option>Februari</option>
+            <option>Maart</option>
+            <option>April</option>
+            <option>Mei</option>
+            <option>Juni</option>
+            <option>Juli</option>
+            <option>Augustus</option>
+            <option>September</option>
+            <option>Oktober</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+        <br/>
+        <label>ik vind mezelf</label>
+        <input type="checkbox" id="vriendelijk">
+        <label for="vriendelijk">vriendelijk</label>
+        <input type="checkbox" id="sportief">
+        <label for="sportief">sportief</label>
+        <input type="checkbox" id="energiek">
+        <label for="energiek">energiek</label>
+        <input type="checkbox" id="leergierig">
+        <label for="leergierig">leergierig</label>
+        <br>
+        <label>Als ik een avond vrij heb, dan...</label>
+        <br/>
+        <input type="text" id="Als ik een avond vrij heb, dan" name="Als ik een avond vrij heb, dan" length="250" width="250" />
+        <br /> </fieldset>
+    <fieldset>
+        <legend>Formulier ingevuld</legend>
+        <input type="submit" value="Formulier verzenden" /> </fieldset>
+</body>
+
+</html>
