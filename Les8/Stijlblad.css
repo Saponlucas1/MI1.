@@ -1,0 +1,52 @@
+body
+{
+background-color: grey;
+}
+.MainBlock
+{
+	position:absolute;
+	width:600px;
+	height:600px;
+	left:100px;
+    top:100px;
+	
+}
+.block1
+{
+	position:absolute;
+	width:150px;
+	height:150px;
+	left:150px;
+	top:150px;
+	background-color: darkblue;
+}
+.block2
+{
+	position:absolute;
+	width:150px;
+	height:150px;
+	right:150px;
+	top:150px;
+	background-color: blueviolet;
+
+}
+.block3
+{
+	position:absolute;
+	width:150px;
+	height:150px;
+	left:150px;
+	bottom:150px;
+	background-color: skyblue;
+
+}
+.block4
+{
+	position:absolute;
+	width:150px;
+	height:150px;
+	right:150px;
+	bottom:150px;
+	background-color: mediumvioletred;
+
+}
