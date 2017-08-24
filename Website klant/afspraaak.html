@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dentimex: Afspraak</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/Afspraak.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://file.myfontastic.com/KZdkWVHUMQVqoH7EjTpiSc/icons.css" rel="stylesheet"> </head>
+
+<body>
+    <header class="header">
+        <div class="container"> <img class="logo" src="../img/dentimex.png" alt="Logo Dentimex"><span class="icon-menu" id="btn-menu"></span>
+            <nav class="nav" id="nav">
+                <ul class="menu">
+                    <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+                    <li class="menu__item"><a href="specialiteiten.html" class="menu__link">Specialiteiten</a></li>
+                    <li class="menu__item"><a href="/" class="menu__link select">Afspraak</a></li>
+                    <li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner"> <img src="../img/onthaal.jpg" alt="Onthaal">
+        <div class="container">
+            <h2 class="banner__titel">Afspraak</h2> </div>
+    </div>
+    <main class="main">
+        <h2 class="section__titel">Onze uurrooster</h2>
+        <table class="uurrooster">
+            <tr class="tabel__titel">
+                <th></th>
+                <th>Open</th>
+                <th>Gesloten</th>
+            </tr>
+            <tr>
+                <td>Maandag</td>
+                <td>9U00</td>
+                <td>19U00</td>
+            </tr>
+            <tr>
+                <td>Dinsdag</td>
+                <td>9U00</td>
+                <td>19U00</td>
+            </tr>
+            <tr>
+                <td>Woensdag</td>
+                <td>9U00</td>
+                <td>19U00</td>
+            </tr>
+            <tr>
+                <td>Donderdag</td>
+                <td>9U00</td>
+                <td>19U00</td>
+            </tr>
+            <tr>
+                <td>Vrijdag</td>
+                <td>9U00</td>
+                <td>19U00</td>
+            </tr>
+            <tr>
+                <td>Zaterdag</td>
+                <td>15U00</td>
+                <td>19U00</td>
+            </tr>
+            <tr>
+                <td>Zondag</td>
+                <td>Gesloten</td>
+                <td>Gesloten</td>
+            </tr>
+        </table>
+        <form action="sturen.php">
+            <h2 class="form__titel">Maak een afspraak</h2>
+            <input type="text" name="naam" placeholder="Naam">
+            <input type="text" name="email" placeholder="Email" pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}" title="Vul een geldige e-mailadres in">
+            <input type="text" name="telefoon" placeholder="Telefoon">
+            <input type="date" name="datum" min="2016-12-23">
+            <textarea name="bericht" placeholder="Schrijf hier u bericht in"></textarea>
+            <input type="button" value="VERZENDEN" id="button">
+            <input type="reset" value="Reset" id="reset"> </form>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="social">
+                <a href="https://www.facebook.com/dentimex/" class="icon-facebook"></a>
+                <a href="https://twitter.com/dentimex/" class="icon-twitter"></a>
+                <a href="https://plus.google.com/+DentimexLloydGeorgeBruxelles/" class="icon-gplus"></a>
+            </div>
+        </div>
+        <p class="copy">&copy; Dentimex 2016 - alle rechten voorbehouden</p>
+    </footer>
+    <script src="../js/menu.js"></script>
+</body>
+
+</html>
